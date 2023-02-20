@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vh;
+    background-color: beige;
+}
+#base {
+    height: 60vh;
+    width: 60vh;
+}
+button{
+    background-color: #bababa;
+    border-radius: 12px;
+    font-size: 120%;
+    font-family: monospace;
+    border: none;
+    height: 5vh;
+    width: 9vw;
+    transition: 0.3s;
+    color: white;
+}
+button:hover {
+    background-color: #a8a8a8;
+}
