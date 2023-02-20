@@ -29,3 +29,9 @@ button{
 button:hover {
     background-color: #a8a8a8;
 }
+
+.squares {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
