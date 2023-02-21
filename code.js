@@ -4,6 +4,10 @@ document.getElementById("adjustButton").addEventListener('click', createGrid);
 function createGrid() {
     //Get the input from the user
     let divsPerSide = prompt("Enter a number between 1 and 100 to determine the number of squares per side");
+    if (divsPerSide > 100||divsPerSide < 1) {
+        alert("Please enter a valid number");
+        return;
+    }
     let numberOfDivs = divsPerSide * divsPerSide;
 
     //Create all the divs
