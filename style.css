@@ -14,6 +14,7 @@ body {
 #base {
     height: 60vh;
     width: 60vh;
+    display: grid;
 }
 button{
     background-color: #bababa;
@@ -28,10 +29,4 @@ button{
 }
 button:hover {
     background-color: #a8a8a8;
-}
-
-.squares {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
 }
