@@ -30,3 +30,7 @@ button{
 button:hover {
     background-color: #a8a8a8;
 }
+
+.squares {
+    background-color: white;
+}
